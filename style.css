@@ -1,0 +1,86 @@
+* {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 150%;
+}
+body{
+    background-color: #E5E5E5;
+}
+header{
+    margin-left: 40px;
+}
+
+main {
+  display: flex;
+  margin-left: 80px;
+  margin-bottom: 50px;
+}
+section{
+    margin: 0 auto;
+}
+
+.texto-area{
+   width: 400px;
+   height: 300px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    margin-top: 90px;
+    margin-right: 20px;
+}
+
+#menssagem{
+
+
+background-image: url(assets/High\ quality\ products\ 1\ 1.png);
+background-repeat: no-repeat;
+background-position: 18px;
+background-size: 300px;
+
+}
+.copiar{
+
+   
+    
+}
+.botao-copiar{
+    width: 120px;
+    font-size: 15px;
+    color: #0A3871;
+    background-color: #D8DFE8;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+}
+.botoes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.encriptar{
+    background-color: #0A3871;
+    color: #fff;
+    border-radius: 10px;
+    width: 120px;
+    font-size: 15px;
+    border: none;
+}
+.desencriptar{
+    display: flex;
+
+   align-items: center;
+    justify-content: center;
+    padding: 5px 5px;
+    margin-left: 30px;
+    width: 120px;
+    font-size: 15px;
+    color: #0A3871;
+    background-color: #D8DFE8;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+}
+.informacao{
+    font-size: 15px;
+}
