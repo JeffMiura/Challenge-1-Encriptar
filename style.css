@@ -39,11 +39,7 @@ background-position: 18px;
 background-size: 300px;
 
 }
-.copiar{
 
-   
-    
-}
 .botao-copiar{
     width: 120px;
     font-size: 15px;
@@ -52,6 +48,8 @@ background-size: 300px;
     box-sizing: border-box;
     border: none;
     border-radius: 10px;
+
+    
 }
 .botoes{
     display: flex;
