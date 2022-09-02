@@ -1,9 +1,11 @@
 const inputTexto = document.querySelector('.texto-area')
 const menssagem = document.querySelector('#menssagem')
-
+document.getElementById('div-aparece').requestFullscreen.display = 'none';
 function btnEncriptar() {
   const textoEncriptado = encriptar(inputTexto.value)
   menssagem.value = textoEncriptado
+  menssagem.style.backgroundImage='none'
+  aparece()
   
   
 }
@@ -33,6 +35,8 @@ function encriptar(stringEncriptada) {
 function btnDesencriptar() {
   const textoDesencriptado = desencriptar(inputTexto.value)
   menssagem.value = textoDesencriptado
+  menssagem.style.backgroundImage='none'
+  aparece()
   
 }
 
@@ -51,4 +55,14 @@ function desencriptar(stringDesencriptar) {
       }
     }
     return stringDesencriptar;
+  }
+
+  function copiar(){
+    const msg = document.querySelector('#menssagem');
+    msg.select();
+    navigator.clipboard.writeText(msg.value)
+    msg.value = '';
+  }
+  function aparece(){
+    document.getElementById('div-aparece').style.display = 'block';
   }
